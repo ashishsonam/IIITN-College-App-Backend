@@ -298,7 +298,7 @@ exports.requestResetPassword = (req, res) => {
                     service: "gmail",
                     auth: {
                         user: "blazecommunity001@gmail.com",
-                        pass: "Fuckme123@@@",
+                        pass: "password",
                     },
                 });
                 let mailOptions = {
